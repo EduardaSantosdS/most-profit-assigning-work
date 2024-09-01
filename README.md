@@ -50,6 +50,14 @@ __Explicação:__
 - worker3 indica que os trabalhadores têm habilidades 5, 15, 25, 35 e 45.
 - O lucro máximo que pode ser obtido é 200, atribuindo os trabalhadores às dificuldades 0, 10, 20, 30 e 40.
 
+__Complexidade do algoritmo:__
+A complexidade total do código é determinada pela combinação das operações individuais:
+- Ordenação dos trabalhos: O(n log n)
+- Ordenação dos trabalhadores: O(m log m)
+- Criação e pré-processamento dos arrays: O(n)
+- Computação do lucro total máximo: O(n + m)
+Portanto, a complexidade total do código é: O(n log n + m log m)
+
 __Resultado no Dr.Memory:__
 FINAL SUMMARY:
 
