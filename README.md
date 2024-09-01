@@ -15,7 +15,7 @@ Você deve retornar o lucro máximo total que pode ser alcançado após atribuir
 __Exemplos:__
  
 Entrada 1:
-difficulty = [2, 4, 6, 8, 10]
+difficulty = [2, 4, 6, 8, 10] \n
 profit = [10, 20, 30, 40, 50]
 worker = [4, 5, 6, 7]
 
